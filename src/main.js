@@ -1,8 +1,5 @@
-import './models';
-import './services';
-import './controllers';
-
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './assets'
+import PersonController from './controllers/person-controller';
 
-console.log('hello')
+const personController = new PersonController;
